@@ -2,4 +2,5 @@
     <string name="app_name">WearBlackScala</string>
     <string name="hello_round">Hello Round World!</string>
     <string name="hello_square">Hello Square World5!</string>
+    <string name="hellow_button_text">Hello</string>
 </resources>
