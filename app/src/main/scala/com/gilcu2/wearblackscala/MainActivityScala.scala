@@ -16,6 +16,7 @@ class MainActivityScala extends Activity {
     stub.setOnLayoutInflatedListener(new WatchViewStub.OnLayoutInflatedListener() {
       def onLayoutInflated(stub: WatchViewStub) {
         val mTextView = stub.findViewById(R.id.text).asInstanceOf[TextView]
+        mTextView.append(" from Scala")
       }
     })
   }
